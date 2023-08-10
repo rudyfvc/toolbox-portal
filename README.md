@@ -17,3 +17,8 @@ La aplicaci√≥n muestra en pantalla los archivos csv formateados que contengan l√
     - http://localhost:3000/files/data
     - http://localhost:3000/files/data?fileName={fileName}
     - http://localhost:3000/files/list
+
+# Para ejecutar el proyecto contenerizado
+
+- Ejecutar el comando `docker build . -t toolbox/toolbox-portal`
+- Una vez construida la imagen ejecutar el comando `docker run -p 5173:5173 toolbox/toolbox-portal`
