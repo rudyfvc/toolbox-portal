@@ -1,8 +1,13 @@
-# React + Vite
+# Proyecto Toolbox Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+La aplicación muestra en pantalla los archivos csv formateados que contengan líneas válidas
 
-Currently, two official plugins are available:
+# Para ejecutar el proyecto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Primero instalar dependencias utilizando `npm install`
+- Luego para iniciar la API ejecutar `npm start`
+
+## Dependencias
+
+- [react](https://react.dev/) - Librería JavaScript para interfaces
+- [react-bootstrap](https://react-bootstrap.netlify.app/) - Framework de desarrollo de interface web
